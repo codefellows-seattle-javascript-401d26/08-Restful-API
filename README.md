@@ -54,7 +54,7 @@ Configure the root of your repository with the following files and directories. 
  * pass data as stringifed JSON in the body of a **POST** request to create a new resource
 * `GET` request
  * pass `?id=<uuid>` as a query string parameter to retrieve a specific resource (as JSON)
- * `GET ALL (storage.fetchAll)` request
+ * `GET ALL` request
  * think of an API endpoint that makes sense, e.g.`/api/v1/notes`, and use that endpoint to retrieve an array of all the resource ID's
 * `DELETE` request
  * pass `?id=<uuid>` in the query string to **DELETE** a specific resource
